@@ -26,15 +26,11 @@ namespace Library
 
                     while (reader.Read())
                     {
-
                         object book = reader.GetValue(0);
-
-
                         Console.WriteLine("{0}", book);
                     }
                 }
                 reader.Close();
-
             }
         }
     }
